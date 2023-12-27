@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+.mainContainer{
+    background-color: #04112a;
+    width: 100vw;
+    height: 100vh;
+}
+.snowBackground{
+    background: url(snowfall.png);
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.1; */
+    animation: snowBackground 1s ease-in-out 0s infinite alternate;
+}
+@keyframes snowBackground {
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.2;
+    }
+}
+.Packets{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.navBar{
+    font-size: 5vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 5px;
+    height: 10vh;
+    width: 98vw;
+    background-color: #599bb4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    z-index: 3;
+    margin-right: 20px;
+}
+input{
+    margin: 0px 4px 10px 0px;
+    height: 4vh;
+    width: 20vw;
+    z-index: 4;
+    border-radius: 20px;
+    /* min-width: 30px; */
+}
+.fa-house{
+    margin-bottom: 10px;
+}
+.heading{
+    /* background-color: #599bb4; */
+    color: #04112a;
+    font-size: 6vw;
+    font-family: ZCOOL KuaiLe;
+    /* z-index: 3; */
+}
+i{
+    z-index: 3;
+    margin: 3px;
+    /* background-color: black; */
+    /* border-radius: 100%; */
+    color: white;
+}
+
+.mainPacket{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+
+    margin: 2px;
+    background-color: #599cb4a1;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    /* flex: 1 1 auto; */
+}
+.i{
+    margin: 10px;
+    color: #e54c16;
+    text-shadow: 3px 3px #599bb4;
+    font-size: 50px;
+}
+hr{
+    height: 4px;
+    background-color: #f0c24d;
+    border: 5px solid #04112a;
+}
+.para{
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+}
+.start{
+    /* size: 10px; */
+    margin-left: 40%;
+    background-color: #599bb4;
+    box-shadow: 2px 2px #04112a;
+}
+.minipacket{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+
+    margin: 2px;
+    background-color: #599cb4a1;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    /* flex: 1 1 auto; */
+}
+.information{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.key{
+    font-size: 20px;
+    color: wheat;
+}
+.infopacket{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    
+
+    margin: 2px;
+    background-color: #599cb4a1;
+    height: 400px;
+    /* width: 300px; */
+    border-radius: 20px;
+    /* flex: 1 1 auto; */
+}
+.weatherinfo{
+    height: 400px;
+
+    overflow: scroll;
+
+}
+pre{
+    
+    font-size: 20px;
+}
+h2{
+    margin: 5px;
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+}
+i:hover{
+    font-size: 6vh;
+    color: #04112a;
+}
+input:hover{
+    background-color: #04112a;
+    color: white;
+}
